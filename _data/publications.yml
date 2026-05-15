@@ -1,6 +1,6 @@
 main:
   - title: "An Ore-type Theorem for Oriented Discrepancy of Hamilton Cycles"
-    authors: 'Yufei Chang, Yangyang Cheng, Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference_short: arXiv
     conference: "arXiv:2603.18915v2"
     pdf: "https://arxiv.org/pdf/2603.18915.pdf"
@@ -11,5 +11,5 @@ main:
 
     
   - title: "Oriented Discrepancy of The Square of Hamilton Cycles"
-    authors: 'Yufei Chang, Yangyang Cheng, Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     pdf: "./assets/files/Oriented Discrepancy of The Square of Hamilton Cycles.pdf"
