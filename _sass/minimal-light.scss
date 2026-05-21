@@ -602,29 +602,57 @@ footer {
   display:none;
   font-family: monospace;
 }
+/* Blurred background image */
 body {
   min-height: 100vh;
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)),
-    url("/ShuoWei_SDU.github.io/assets/img/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  position: relative;
+  background: #f7f9fc;
 }
 
+/* Background layer only */
+body::before {
+  content: "";
+  position: fixed;
+  top: -18px;
+  left: -18px;
+  width: calc(100% + 36px);
+  height: calc(100% + 36px);
+  z-index: -2;
+
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)),
+    url("/ShuoWei_SDU.github.io/assets/img/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  transform: scale(1.04);
+}
+
+/* Optional soft overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: rgba(247, 249, 252, 0.35);
+}
+
+/* Main content */
 section {
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.80);
   border-radius: 22px;
   padding: 2.2em 2.4em;
   box-shadow: 0 18px 45px rgba(20, 45, 70, 0.08);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
 
+/* Left profile area */
 header {
   background: rgba(255, 255, 255, 0.68);
   border-radius: 22px;
   padding: 2.2em 1.2em;
   box-shadow: 0 14px 35px rgba(20, 45, 70, 0.06);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
