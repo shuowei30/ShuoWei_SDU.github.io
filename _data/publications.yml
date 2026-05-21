@@ -12,4 +12,6 @@ main:
     
   - title: "Oriented Discrepancy of The Square of Hamilton Cycles"
     authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    pdf: "./assets/files/Oriented Discrepancy of The Square of Hamilton Cycles.pdf"
+    conference_short: arXiv
+    conference: "arXiv:2605.20746"
+    pdf: "https://arxiv.org/pdf/2605.20746"
