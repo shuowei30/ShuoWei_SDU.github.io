@@ -602,3 +602,29 @@ footer {
   display:none;
   font-family: monospace;
 }
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)),
+    url("/ShuoWei_SDU.github.io/assets/img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.82);
+  border-radius: 22px;
+  padding: 2.2em 2.4em;
+  box-shadow: 0 18px 45px rgba(20, 45, 70, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+header {
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 22px;
+  padding: 2.2em 1.2em;
+  box-shadow: 0 14px 35px rgba(20, 45, 70, 0.06);
+  backdrop-filter: blur(10px);
+}
