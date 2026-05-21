@@ -662,8 +662,8 @@ section {
   box-shadow: 0 18px 45px rgba(20, 45, 70, 0.08);
   backdrop-filter: blur(8px);
 
-  width: calc(100% - 330px);
-  margin-left: 330px;
+  width: calc(100% - 360px);
+  margin-left: 360px;
   float: none;
 }
 
@@ -680,4 +680,18 @@ section {
     margin-left: 0;
     padding: 28px 24px;
   }
+}
+/* Center the "Powered by" footer under the left profile card */
+footer {
+  width: 270px;
+  position: fixed;
+  bottom: 26px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
 }
