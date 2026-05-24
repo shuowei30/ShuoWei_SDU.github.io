@@ -2,21 +2,20 @@
 title: Shuo Wei
 position: Graduate Student
 position_link: https://www.wgh-comb.net/members.html
+affiliation: School of Mathematics, Shandong University
+affiliation_link: https://www.math.sdu.edu.cn/
 email: shuowei@mail.sdu.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Shuo Wei, Shandong University, graph theory, extremal graph theory, digraph theory, Hamilton cycles
+description: Shuo Wei is a graduate student at the School of Mathematics, Shandong University, working on extremal graph theory and digraph theory.
+canonical: https://goal777.github.io/ShuoWei_SDU.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+github_link: https://github.com/goal777
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
