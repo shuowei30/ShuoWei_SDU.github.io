@@ -625,23 +625,27 @@ body {
   position: sticky;
   top: 14px;
   z-index: 20;
-  width: min(960px, calc(100% - 30px));
-  margin: 14px auto 0;
-  padding: 10px 14px;
+  width: 960px;
+  max-width: calc(100% - 30px);
+  margin: 14px auto 22px;
+  padding: 11px 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(255, 255, 255, 0.76);
-  border-radius: 18px;
-  box-shadow: 0 12px 30px rgba(20, 45, 70, 0.08);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(216, 226, 237, 0.92);
+  border-radius: 14px;
+  box-shadow: 0 10px 26px rgba(20, 45, 70, 0.07);
+  backdrop-filter: blur(12px);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .site-nav__brand {
   color: #043361;
-  font-weight: 600;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0;
   white-space: nowrap;
 }
 
@@ -654,10 +658,14 @@ body {
 }
 
 .site-nav__links a {
-  color: #35516a;
+  color: #38546e;
   border-radius: 999px;
-  padding: 4px 10px;
-  font-size: 0.92rem;
+  padding: 5px 11px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.35;
+  text-transform: uppercase;
   transition: color 0.18s ease, background-color 0.18s ease;
 }
 
@@ -773,6 +781,10 @@ position {
 @media print, screen and (max-width: 960px) {
   .site-nav {
     top: 10px;
+    width: auto;
+    max-width: none;
+    margin: 0 0 18px;
+    padding: 12px 14px;
     flex-direction: column;
     align-items: center;
     gap: 8px;
@@ -780,6 +792,11 @@ position {
 
   .site-nav__links {
     justify-content: center;
+    gap: 5px;
+  }
+
+  .site-nav__links a {
+    padding: 5px 9px;
   }
 
   header {
