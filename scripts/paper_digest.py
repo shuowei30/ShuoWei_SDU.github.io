@@ -30,6 +30,8 @@ except ZoneInfoNotFoundError:
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
+UNKNOWN_AUTHORS = "\u4f5c\u8005\u672a\u6807\u660e"
+
 ARXIV_QUERIES = [
     'all:"directed graph" OR all:digraph OR all:"oriented graph"',
     'all:"graph theory" AND (all:directed OR all:digraph)',
@@ -331,7 +333,7 @@ def build_digest(papers: list[Paper], has_recent: bool) -> tuple[str, str, str]:
         text_lines.extend(
             [
                 f"{index}. {paper.title}",
-                f"\u4f5c\u8005\uff1a{authors or '\u4f5c\u8005\u672a\u6807\u660e'}",
+                f"\u4f5c\u8005\uff1a{authors or UNKNOWN_AUTHORS}",
                 f"\u6765\u6e90\uff1a{paper.source}{' | ' + paper.venue if paper.venue else ''}",
                 f"\u65e5\u671f\uff1a{short_date(paper.date)}",
                 f"\u94fe\u63a5\uff1a{paper.link}",
@@ -346,7 +348,7 @@ def build_digest(papers: list[Paper], has_recent: bool) -> tuple[str, str, str]:
 
         html_parts.append("<hr>")
         html_parts.append(f"<h3>{index}. {html.escape(paper.title)}</h3>")
-        html_parts.append(f"<p><strong>\u4f5c\u8005\uff1a</strong>{html.escape(authors or '\u4f5c\u8005\u672a\u6807\u660e')}</p>")
+        html_parts.append(f"<p><strong>\u4f5c\u8005\uff1a</strong>{html.escape(authors or UNKNOWN_AUTHORS)}</p>")
         html_parts.append(
             f"<p><strong>\u6765\u6e90\uff1a</strong>{html.escape(paper.source)}"
             f"{html.escape(' | ' + paper.venue) if paper.venue else ''}<br>"
