@@ -396,6 +396,7 @@ def send_email(subject: str, text: str, html_body: str) -> str:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json; charset=utf-8",
+            "User-Agent": "ShuoWeiPaperDigest/1.0",
             "Idempotency-Key": f"paper-digest-{dt.datetime.now(dt.timezone.utc).strftime('%Y%m%d%H%M%S')}",
         },
     )
