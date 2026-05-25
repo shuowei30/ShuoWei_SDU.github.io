@@ -1,0 +1,30 @@
+name: Daily Graph Theory Paper Digest
+
+on:
+  schedule:
+    # GitHub Actions schedules are UTC. 01:00 UTC is 09:00 in Beijing.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Send digest email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          PAPER_DIGEST_FROM: "Shuo Wei Paper Digest <onboarding@resend.dev>"
+          PAPER_DIGEST_TO: "shuowei@mail.sdu.edu.cn"
+          LOOKBACK_DAYS: "3"
+        run: python scripts/paper_digest.py
