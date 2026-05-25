@@ -1,6 +1,6 @@
-# Shuo Wei Academic Homepage
+# Shuo Wei's Homepage
 
-This repository hosts the personal academic homepage of **Shuo Wei**, a graduate student at the School of Mathematics, Shandong University.
+This repository hosts the personal homepage of **Shuo Wei**, a graduate student at the School of Mathematics, Shandong University.
 
 Website: <https://goal777.github.io/ShuoWei_SDU.github.io/>
 
@@ -19,4 +19,4 @@ The site is built with Jekyll and deployed by GitHub Pages from the `main` branc
 
 ## Acknowledgement
 
-This homepage is adapted from the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme, with custom content, layout, and styling for Shuo Wei's academic profile.
+This homepage is adapted from the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme, with custom content, layout, and styling for Shuo Wei's profile.
