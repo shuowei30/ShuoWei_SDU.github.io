@@ -277,7 +277,7 @@ def pick_papers(papers: list[Paper], lookback_days: int, limit: int = 8) -> tupl
 
 def short_date(value: dt.datetime | None) -> str:
     if not value:
-        return "鏃ユ湡鏈爣鏄?
+        return "\u65e5\u671f\u672a\u6807\u660e"
     return value.astimezone(BEIJING).strftime("%Y-%m-%d")
 
 
@@ -295,24 +295,24 @@ def main_work(paper: Paper) -> str:
 def research_questions(paper: Paper) -> list[str]:
     blob = f"{paper.title} {paper.summary}".lower()
     questions = [
-        "鑳藉惁鎶婃枃涓殑缁撹鎺ㄥ箍鍒版洿涓€鑸殑鏈夊悜鍥剧被銆佸甫鏉冩湁鍚戝浘鎴栭殢鏈烘湁鍚戝浘妯″瀷锛?,
-        "鏍稿績鐣屾垨缁撴瀯鏉′欢鏄惁鏄渶浼樼殑锛屾槸鍚﹀瓨鍦ㄦ洿绱х殑鏋佸€兼瀯閫犳垨鍙嶄緥鏃忥紵",
+        "\u80fd\u5426\u628a\u6587\u4e2d\u7684\u7ed3\u8bba\u63a8\u5e7f\u5230\u66f4\u4e00\u822c\u7684\u6709\u5411\u56fe\u7c7b\u3001\u5e26\u6743\u6709\u5411\u56fe\u6216\u968f\u673a\u6709\u5411\u56fe\u6a21\u578b\uff1f",
+        "\u6838\u5fc3\u754c\u6216\u7ed3\u6784\u6761\u4ef6\u662f\u5426\u662f\u6700\u4f18\u7684\uff0c\u662f\u5426\u5b58\u5728\u66f4\u7d27\u7684\u6781\u503c\u6784\u9020\u6216\u53cd\u4f8b\u65cf\uff1f",
     ]
     if any(term in blob for term in ("algorithm", "complexity", "approximation", "parameterized")):
-        questions.append("鐩稿簲闂鏄惁瀛樺湪鏇村揩鐨勭簿纭畻娉曘€佸弬鏁板寲绠楁硶鎴栬繎浼间笅鐣岋紵")
+        questions.append("\u76f8\u5e94\u95ee\u9898\u662f\u5426\u5b58\u5728\u66f4\u5feb\u7684\u7cbe\u786e\u7b97\u6cd5\u3001\u53c2\u6570\u5316\u7b97\u6cd5\u6216\u8fd1\u4f3c\u4e0b\u754c\uff1f")
     if any(term in blob for term in ("spectral", "eigen", "laplacian", "matrix")):
-        questions.append("璋辨潯浠朵笌鏈夊悜鍥剧殑杩為€氭€с€佸湀缁撴瀯鎴栫ǔ瀹氭€т箣闂存槸鍚︽湁鏇寸洿鎺ョ殑鍒荤敾锛?)
+        questions.append("\u8c31\u6761\u4ef6\u4e0e\u6709\u5411\u56fe\u7684\u8fde\u901a\u6027\u3001\u5708\u7ed3\u6784\u6216\u7a33\u5b9a\u6027\u4e4b\u95f4\u662f\u5426\u6709\u66f4\u76f4\u63a5\u7684\u523b\u753b\uff1f")
     if any(term in blob for term in ("random", "probabilistic", "threshold")):
-        questions.append("闅忔満妯″瀷涓殑闃堝€肩幇璞¤兘鍚﹁浆鍖栦负纭畾鎬у浘绫讳笂鐨勭粨鏋勫畾鐞嗭紵")
+        questions.append("\u968f\u673a\u6a21\u578b\u4e2d\u7684\u9608\u503c\u73b0\u8c61\u80fd\u5426\u8f6c\u5316\u4e3a\u786e\u5b9a\u6027\u56fe\u7c7b\u4e0a\u7684\u7ed3\u6784\u5b9a\u7406\uff1f")
     if any(term in blob for term in ("tournament", "oriented graph", "digraph")):
-        questions.append("杩欎簺鏂规硶瀵?tournament銆乷riented graph 鎴栧己杩為€?digraph 鏄惁缁欏嚭鏂扮殑鍒嗙被鎬濊矾锛?)
+        questions.append("\u8fd9\u4e9b\u65b9\u6cd5\u5bf9 tournament\u3001oriented graph \u6216\u5f3a\u8fde\u901a digraph \u662f\u5426\u7ed9\u51fa\u65b0\u7684\u5206\u7c7b\u601d\u8def\uff1f")
     return questions[:4]
 
 
 def build_digest(papers: list[Paper], has_recent: bool) -> tuple[str, str, str]:
     today = dt.datetime.now(BEIJING).strftime("%Y-%m-%d")
-    subject = f"鍥捐涓庢湁鍚戝浘鏈€鏂拌鏂囨棩鎶?- {today}"
-    note = "浠ヤ笅璁烘枃浼樺厛鏉ヨ嚜鏈€杩戞洿鏂拌褰曘€? if has_recent else "鏈€杩戠獥鍙ｅ唴娌℃湁绛涘埌瓒冲寮虹浉鍏崇殑鏂拌鏂囷紝涓嬮潰琛ュ厖杩戞湡楂樼浉鍏宠褰曘€?
+    subject = f"\u56fe\u8bba\u4e0e\u6709\u5411\u56fe\u6700\u65b0\u8bba\u6587\u65e5\u62a5 - {today}"
+    note = "\u4ee5\u4e0b\u8bba\u6587\u4f18\u5148\u6765\u81ea\u6700\u8fd1\u66f4\u65b0\u8bb0\u5f55\u3002" if has_recent else "\u6700\u8fd1\u7a97\u53e3\u5185\u6ca1\u6709\u7b5b\u5230\u8db3\u591f\u5f3a\u76f8\u5173\u7684\u65b0\u8bba\u6587\uff0c\u4e0b\u9762\u8865\u5145\u8fd1\u671f\u9ad8\u76f8\u5173\u8bb0\u5f55\u3002"
 
     text_lines = [subject, "", note, ""]
     html_parts = [
@@ -321,8 +321,8 @@ def build_digest(papers: list[Paper], has_recent: bool) -> tuple[str, str, str]:
     ]
 
     if not papers:
-        text_lines.append("浠婂ぉ娌℃湁妫€绱㈠埌瓒冲鐩稿叧鐨勮鏂囥€?)
-        html_parts.append("<p>浠婂ぉ娌℃湁妫€绱㈠埌瓒冲鐩稿叧鐨勮鏂囥€?/p>")
+        text_lines.append("\u4eca\u5929\u6ca1\u6709\u68c0\u7d22\u5230\u8db3\u591f\u76f8\u5173\u7684\u8bba\u6587\u3002")
+        html_parts.append("<p>\u4eca\u5929\u6ca1\u6709\u68c0\u7d22\u5230\u8db3\u591f\u76f8\u5173\u7684\u8bba\u6587\u3002</p>")
     for index, paper in enumerate(papers, 1):
         authors = ", ".join(paper.authors[:8]) + (" et al." if len(paper.authors) > 8 else "")
         questions = research_questions(paper)
@@ -331,14 +331,14 @@ def build_digest(papers: list[Paper], has_recent: bool) -> tuple[str, str, str]:
         text_lines.extend(
             [
                 f"{index}. {paper.title}",
-                f"浣滆€咃細{authors or '浣滆€呮湭鏍囨槑'}",
-                f"鏉ユ簮锛歿paper.source}{' | ' + paper.venue if paper.venue else ''}",
-                f"鏃ユ湡锛歿short_date(paper.date)}",
-                f"閾炬帴锛歿paper.link}",
-                f"鐩稿叧搴︼細{score}",
-                f"鎽樿姒傛嫭锛歿paper.summary}",
-                f"涓昏宸ヤ綔锛歿main_work(paper)}",
-                "鍙互缁х画鍋氱殑闂锛?,
+                f"\u4f5c\u8005\uff1a{authors or '\u4f5c\u8005\u672a\u6807\u660e'}",
+                f"\u6765\u6e90\uff1a{paper.source}{' | ' + paper.venue if paper.venue else ''}",
+                f"\u65e5\u671f\uff1a{short_date(paper.date)}",
+                f"\u94fe\u63a5\uff1a{paper.link}",
+                f"\u76f8\u5173\u5ea6\uff1a{score}",
+                f"\u6458\u8981\u6982\u62ec\uff1a{paper.summary}",
+                f"\u4e3b\u8981\u5de5\u4f5c\uff1a{main_work(paper)}",
+                "\u53ef\u4ee5\u7ee7\u7eed\u505a\u7684\u95ee\u9898\uff1a",
                 *[f"- {question}" for question in questions],
                 "",
             ]
@@ -346,23 +346,23 @@ def build_digest(papers: list[Paper], has_recent: bool) -> tuple[str, str, str]:
 
         html_parts.append("<hr>")
         html_parts.append(f"<h3>{index}. {html.escape(paper.title)}</h3>")
-        html_parts.append(f"<p><strong>浣滆€咃細</strong>{html.escape(authors or '浣滆€呮湭鏍囨槑')}</p>")
+        html_parts.append(f"<p><strong>\u4f5c\u8005\uff1a</strong>{html.escape(authors or '\u4f5c\u8005\u672a\u6807\u660e')}</p>")
         html_parts.append(
-            f"<p><strong>鏉ユ簮锛?/strong>{html.escape(paper.source)}"
+            f"<p><strong>\u6765\u6e90\uff1a</strong>{html.escape(paper.source)}"
             f"{html.escape(' | ' + paper.venue) if paper.venue else ''}<br>"
-            f"<strong>鏃ユ湡锛?/strong>{html.escape(short_date(paper.date))}<br>"
-            f"<strong>閾炬帴锛?/strong><a href=\"{html.escape(paper.link)}\">{html.escape(paper.link)}</a><br>"
-            f"<strong>鐩稿叧搴︼細</strong>{score}</p>"
+            f"<strong>\u65e5\u671f\uff1a</strong>{html.escape(short_date(paper.date))}<br>"
+            f"<strong>\u94fe\u63a5\uff1a</strong><a href=\"{html.escape(paper.link)}\">{html.escape(paper.link)}</a><br>"
+            f"<strong>\u76f8\u5173\u5ea6\uff1a</strong>{score}</p>"
         )
-        html_parts.append(f"<p><strong>鎽樿姒傛嫭锛?/strong>{html.escape(paper.summary)}</p>")
-        html_parts.append(f"<p><strong>涓昏宸ヤ綔锛?/strong>{html.escape(main_work(paper))}</p>")
-        html_parts.append("<p><strong>鍙互缁х画鍋氱殑闂锛?/strong></p><ul>")
+        html_parts.append(f"<p><strong>\u6458\u8981\u6982\u62ec\uff1a</strong>{html.escape(paper.summary)}</p>")
+        html_parts.append(f"<p><strong>\u4e3b\u8981\u5de5\u4f5c\uff1a</strong>{html.escape(main_work(paper))}</p>")
+        html_parts.append("<p><strong>\u53ef\u4ee5\u7ee7\u7eed\u505a\u7684\u95ee\u9898\uff1a</strong></p><ul>")
         html_parts.extend(f"<li>{html.escape(question)}</li>" for question in questions)
         html_parts.append("</ul>")
 
     if papers:
-        text_lines.extend(["浼樺厛闃呰寤鸿锛?])
-        html_parts.append("<h3>浼樺厛闃呰寤鸿</h3><ol>")
+        text_lines.extend(["\u4f18\u5148\u9605\u8bfb\u5efa\u8bae\uff1a"])
+        html_parts.append("<h3>\u4f18\u5148\u9605\u8bfb\u5efa\u8bae</h3><ol>")
         for paper in papers[: min(5, len(papers))]:
             text_lines.append(f"- {paper.title}")
             html_parts.append(f"<li>{html.escape(paper.title)}</li>")
