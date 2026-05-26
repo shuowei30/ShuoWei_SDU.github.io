@@ -2,8 +2,8 @@ name: Daily Graph Theory Paper Digest
 
 on:
   schedule:
-    # GitHub Actions schedules are UTC. 01:00 UTC is 09:00 in Beijing.
-    - cron: "0 1 * * *"
+    # GitHub Actions schedules are UTC. 01:17 UTC is 09:17 in Beijing.
+    - cron: "17 1 * * *"
   workflow_dispatch:
 
 permissions:
