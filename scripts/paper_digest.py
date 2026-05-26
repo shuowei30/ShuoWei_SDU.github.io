@@ -138,7 +138,7 @@ def fetch_arxiv() -> list[Paper]:
         try:
             feed = request_text(f"{ARXIV_API}?{params}")
             root = ET.fromstring(feed)
-        except (urllib.error.URLError, ET.ParseError):
+                except (OSError, ET.ParseError):
             continue
 
         for entry in root.findall("atom:entry", ns):
@@ -199,7 +199,7 @@ def fetch_crossref(lookback_days: int) -> list[Paper]:
         )
         try:
             data = json.loads(request_text(f"{CROSSREF_API}?{params}"))
-        except (urllib.error.URLError, json.JSONDecodeError):
+except (OSError, json.JSONDecodeError):
             continue
 
         for item in data.get("message", {}).get("items", []):
