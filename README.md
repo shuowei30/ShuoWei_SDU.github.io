@@ -1,6 +1,6 @@
 # Shuo Wei's Homepage
 
-This repository hosts the personal homepage of **Shuo Wei**, a graduate student at the School of Mathematics, Shandong University.
+This repository hosts the personal homepage of **Shuo Wei**.
 
 Website: <https://shuowei30.github.io/ShuoWei_SDU.github.io/>
 
