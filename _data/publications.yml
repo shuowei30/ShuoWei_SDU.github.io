@@ -7,9 +7,9 @@ main:
 
   - title: "Hamiltonian Squares in Digraphs under Semi-Degree Conditions"
     authors: 'Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "Manuscript"
     pdf: "./assets/files/Hamiltonian Squares in Digraphs under Semi-Degree Conditions.pdf"
 
-    
   - title: "Oriented Discrepancy of The Square of Hamilton Cycles"
     authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, Zhilan Wang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference_short: arXiv
