@@ -2,7 +2,7 @@
 
 This repository hosts the personal homepage of **Shuo Wei**, a graduate student at the School of Mathematics, Shandong University.
 
-Website: <https://goal777.github.io/ShuoWei_SDU.github.io/>
+Website: <https://shuowei30.github.io/ShuoWei_SDU.github.io/>
 
 ## Contents
 
