@@ -703,27 +703,27 @@ body::after {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: rgba(247, 249, 252, 0.18);
+  background: rgba(247, 249, 252, 0.24);
 }
 
 /* Left profile card */
 header {
-  background: rgba(255, 255, 255, 0.62);
+  background: rgba(255, 255, 255, 0.74);
   border-radius: 22px;
   padding: 28px 16px;
   box-shadow: 0 14px 35px rgba(20, 45, 70, 0.06);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.78);
 }
 
 /* Right content card */
 section {
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.84);
   border-radius: 22px;
   padding: 34px 38px;
   box-shadow: 0 18px 45px rgba(20, 45, 70, 0.08);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.82);
 
   width: calc(100% - 270px);
   margin-left: 270px;
@@ -841,5 +841,35 @@ footer p {
     margin-left: 0;
     margin-top: 24px;
     text-align: center;
+  }
+}
+
+
+/* Compact phone navigation */
+@media print, screen and (max-width: 480px) {
+  .site-nav {
+    top: 8px;
+    margin-bottom: 14px;
+    padding: 10px 10px;
+    gap: 6px;
+  }
+
+  .site-nav__brand {
+    font-size: 0.92rem;
+  }
+
+  .site-nav__links {
+    width: 100%;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .site-nav__links a {
+    font-size: 0.70rem;
+    padding: 4px 6px;
+  }
+
+  section {
+    padding: 24px 18px;
   }
 }
