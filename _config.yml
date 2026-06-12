@@ -10,12 +10,12 @@ email: shuowei@mail.sdu.edu.cn
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Shuo Wei, Shandong University, graph theory, extremal graph theory, digraph theory, Hamilton cycles
 description: Shuo Wei is a graduate student at the School of Mathematics, Shandong University, working on extremal graph theory and digraph theory.
-canonical: https://goal777.github.io/ShuoWei_SDU.github.io/
+canonical: https://shuowei30.github.io/ShuoWei_SDU.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/goal777
+github_link: https://github.com/shuowei30
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
