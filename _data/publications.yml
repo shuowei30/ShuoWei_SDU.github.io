@@ -16,13 +16,12 @@ main:
     conference: "arXiv:2605.20746"
     pdf: "https://arxiv.org/pdf/2605.20746"
 
-     - title: "Private Neighbors in Grids and Trees"
+  - title: "Private Neighbors in Grids and Trees"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>'
     conference: "Manuscript"
     pdf: "./assets/files/Private Neighbors in Grids and Trees.pdf"
 
- - title: "Algorithms and Complexity for Some Private Neighbor Parameters"
+  - title: "Algorithms and Complexity for Some Private Neighbor Parameters"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>'
     conference: "Manuscript"
     pdf: "./assets/files/Algorithms and Complexity for Some Private Neighbor Parameters.pdf"
-
