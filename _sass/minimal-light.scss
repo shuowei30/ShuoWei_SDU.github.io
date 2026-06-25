@@ -777,6 +777,44 @@ position {
   transform: translateY(-2px);
 }
 
+.visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  margin-top: 12px;
+  padding: 4px 12px;
+  border: 1px solid rgba(4, 51, 97, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.48);
+  color: #4b6278;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.visitor-counter span {
+  display: inline-block;
+  min-width: 3.2em;
+  margin-left: 0.35em;
+  color: #043361;
+  text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+  .visitor-counter {
+    border-color: rgba(62, 183, 240, 0.22);
+    background: rgba(32, 33, 43, 0.48);
+    color: #c8d7e2;
+  }
+
+  .visitor-counter span {
+    color: #3eb7f0;
+  }
+}
+
 /* Mobile layout */
 @media print, screen and (max-width: 960px) {
   .site-nav {
@@ -873,3 +911,4 @@ footer p {
     padding: 24px 18px;
   }
 }
+
