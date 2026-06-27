@@ -25,3 +25,10 @@ main:
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>'
     conference: "Manuscript"
     pdf: "./assets/files/Algorithms and Complexity for Some Private Neighbor Parameters.pdf"
+
+  - title: "Minimal Dominating Set Enumeration in Incomparability Graphs of Restricted Posets"
+    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>'
+    conference: "Manuscript"
+    pdf: "./assets/files/Minimal Dominating Set Enumeration in Incomparability Graphs of Restricted Posets.pdf"
+
+    
