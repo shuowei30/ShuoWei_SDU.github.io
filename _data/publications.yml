@@ -27,7 +27,7 @@ main:
     pdf: "./assets/files/Minimal Dominating Set Enumeration in Incomparability Graphs of Restricted Posets.pdf"
 
   - title: "Completion and Cyclic Ordering Problems for Oriented Graphs"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>,  <a href="https://faculty.sdu.edu.cn/wujianliang/">Jin Yan</a>'
+    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/wujianliang/">Jianliang Wu</a>'
     conference: "Manuscript"
     pdf: "./assets/files/Completion and Cyclic Ordering Problems for Oriented Graphs.pdf"
 
