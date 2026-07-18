@@ -16,21 +16,16 @@ main:
     conference: "arXiv:2605.20746"
     pdf: "https://arxiv.org/pdf/2605.20746"
 
-  - title: "Algorithms and Complexity for Some Private Neighbor Parameters"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>'
-    conference: "Manuscript"
-    pdf: "./assets/files/Algorithms and Complexity for Some Private Neighbor Parameters.pdf"
-
-  - title: "Minimal Dominating Set Enumeration in Incomparability Graphs of Restricted Posets"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>'
-    conference: "Manuscript"
-    pdf: "./assets/files/Minimal Dominating Set Enumeration in Incomparability Graphs of Restricted Posets.pdf"
-
   - title: "Completion and Cyclic Ordering Problems for Oriented Graphs"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/wujianliang/">Jianliang Wu</a>'
     conference: "Manuscript"
     pdf: "./assets/files/Completion and Cyclic Ordering Problems for Oriented Graphs.pdf"
 
+  - title: "The Exact Minimum Total Degree Threshold For The Square of A Hamilton Cycle in Digraphs"
+    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference_short: arXiv
+    conference: "arXiv:2607.13831"
+    pdf: "https://arxiv.org/pdf/2607.13831"
 
 
     
