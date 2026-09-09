@@ -16,11 +16,6 @@ main:
     conference: "arXiv:2605.20746"
     pdf: "https://arxiv.org/pdf/2605.20746"
 
-  - title: "Completion and Cyclic Ordering Problems for Oriented Graphs"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/wujianliang/">Jianliang Wu</a>'
-    conference: "Manuscript"
-    pdf: "./assets/files/Completion and Cyclic Ordering Problems for Oriented Graphs.pdf"
-
   - title: "The Exact Minimum Total Degree Threshold For The Square of A Hamilton Cycle in Digraphs"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference_short: arXiv
