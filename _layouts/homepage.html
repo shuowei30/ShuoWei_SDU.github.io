@@ -1,28 +1,28 @@
-﻿<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <title>Shuo Wei's Homepage</title>
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shuo Wei | Graph Theory | Shandong University</title>
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.title }}">
-    {% if site.keywords %}
-    <meta name="keywords" content="{{ site.keywords }}">
-    {% endif %}
-    {% if site.canonical %}
-    <link rel="canonical" href="{{ site.canonical }}"/>
-    {% endif %}
+    {% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}">{% endif %}
+    <meta name="theme-color" content="#f7f9fc" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0d1724" media="(prefers-color-scheme: dark)">
+    {% if site.canonical %}<link rel="canonical" href="{{ site.canonical }}">{% endif %}
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-    <script src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js" defer></script>
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Shuo Wei | Graph Theory | Shandong University">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:image" content="{{ site.canonical }}assets/img/avatar.jpg">
+    <meta property="og:image:alt" content="Portrait of Shuo Wei">
+    <meta name="twitter:card" content="summary">
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="{{ site.favicon_dark }}" type="image/png" sizes="64x64">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="{{ site.favicon }}" type="image/png" sizes="64x64">
+
     {% if site.font == "Sans Serif" %}
     <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
     {% else %}
@@ -35,118 +35,80 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Shuo Wei",
+      "url": "{{ site.canonical }}",
+      "image": "{{ site.canonical }}assets/img/avatar.jpg",
+      "jobTitle": "Ph.D. Student",
+      "email": "mailto:{{ site.email }}",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shandong University",
+        "url": "https://www.sdu.edu.cn/"
+      },
+      "sameAs": ["{{ site.github_link }}"],
+      "knowsAbout": ["Extremal graph theory", "Digraph theory", "Hamiltonicity", "Oriented graphs"]
     }
-  };
-</script>
-<script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+    </script>
   </head>
   <body id="top">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <nav class="site-nav" aria-label="Section navigation">
-      <a class="site-nav__brand" href="#top">{{ site.title }}</a>
+      <a class="site-nav__brand" href="#top">Shuo Wei</a>
       <div class="site-nav__links">
         <a href="#about-me">About</a>
         <a href="#research-interests">Research</a>
         <a href="#news">News</a>
-        <a href="#publications">Publications</a>
+        <a href="#publications">Papers</a>
       </div>
     </nav>
-    <div class="wrapper">
+
+    <main class="wrapper" id="main-content">
       <header>
-        
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <div class="image avatar">
+          <img src="{{ site.avatar }}" alt="Portrait of Shuo Wei" width="600" height="789" fetchpriority="high">
+        </div>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        {% if site.position_link %}
-        <a href="{{ site.position_link }}" rel="noopener" target="_blank">
-          <position>{{ site.position }}</position>
-        </a>
-        {% else %}
-        <position>{{ site.position }}</position>
+        <p class="position">
+          {% if site.position_link %}<a href="{{ site.position_link }}" rel="noopener" target="_blank">{{ site.position }}</a>{% else %}{{ site.position }}{% endif %}
+        </p>
         {% endif %}
-        <br>
-        {% endif %}
+
         {% if site.affiliation %}
-        {% if site.affiliation_link %}
-        <a href="{{ site.affiliation_link }}" rel="noopener" target="_blank"><autocolor>{{ site.affiliation }}</autocolor></a>
-        {% else %}
-        <autocolor>{{ site.affiliation }}</autocolor>
-        {% endif %}
-        <br>
-        {% endif %}
-      {% if site.email %}
-<email><a href="mailto:{{ site.email }}">{{ site.email }}</a></email>
-{% endif %}
-
-        <br>
-        <br>
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}" aria-label="Google Scholar" rel="noopener" target="_blank">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
+        <p class="affiliation">
+          {% if site.affiliation_link %}<a href="{{ site.affiliation_link }}" rel="noopener" target="_blank">{{ site.affiliation }}</a>{% else %}{{ site.affiliation }}{% endif %}
+        </p>
         {% endif %}
 
-        {% if site.cv_link %}
-        <a href="{{ site.cv_link }}" aria-label="Curriculum vitae">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
+        {% if site.email %}
+        <p class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         {% endif %}
 
-        {% if site.github_link %}
-        <a href="{{ site.github_link }}" aria-label="GitHub" rel="noopener" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a href="{{ site.linkedin }}" aria-label="LinkedIn" rel="noopener" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a href="{{ site.twitter }}" aria-label="X" rel="noopener" target="_blank">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        {% endif %}
-        </div>
-        <div class="visitor-counter" aria-label="Site visitor counter">
-          Visitor No. <span id="busuanzi_site_uv">Loading...</span>
-        </div>
-        <br>
-
+        <nav class="profile-links" aria-label="External profile links">
+          {% if site.cv_link %}<a href="{{ site.cv_link }}">CV</a>{% endif %}
+          {% if site.github_link %}<a href="{{ site.github_link }}" rel="noopener" target="_blank">GitHub</a>{% endif %}
+        </nav>
       </header>
-      <section>
 
-      {{ content }}
-
-      <br>
-
+      <section class="content-card" aria-label="Academic profile">
+        {{ content }}
       </section>
+
       <footer>
         {% if site.enable_footnote %}
         <p><small>Built with Jekyll. Theme adapted from <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a>.</small></p>
         {% endif %}
       </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    </main>
   </body>
 </html>
-

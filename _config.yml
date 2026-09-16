@@ -5,11 +5,12 @@ position_link: https://www.wgh-comb.net/members.html
 affiliation: School of Mathematics, Shandong University
 affiliation_link: https://www.math.sdu.edu.cn/
 email: shuowei@mail.sdu.edu.cn
+lang: en-US
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Shuo Wei, Shandong University, graph theory, extremal graph theory, digraph theory, Hamilton cycles
-description: Shuo Wei is a first-year Ph.D. student at the School of Mathematics, Shandong University, working on extremal graph theory and digraph theory.
+keywords: Shuo Wei, Shandong University, graph theory, extremal graph theory, digraph theory, Hamilton cycles, oriented graphs
+description: Shuo Wei is a Ph.D. student at the School of Mathematics, Shandong University, working on extremal graph theory, digraph theory, and Hamiltonicity.
 canonical: https://shuowei30.github.io/ShuoWei_SDU.github.io/
 
 # Links 

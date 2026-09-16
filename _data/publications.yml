@@ -1,48 +1,42 @@
 main:
+  - title: "Spanning H-subdivisions with Prescribed Path Lengths"
+    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "arXiv:2608.15786"
+    page: "https://arxiv.org/abs/2608.15786"
+    pdf: "https://arxiv.org/pdf/2608.15786"
+
+  - title: "Nearly Balanced Spanning Subdivisions in Dense Digraphs"
+    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "arXiv:2608.14432"
+    page: "https://arxiv.org/abs/2608.14432"
+    pdf: "https://arxiv.org/pdf/2608.14432"
+
+  - title: "An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs"
+    authors: 'Yufei Chang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "arXiv:2608.10445"
+    page: "https://arxiv.org/abs/2608.10445"
+    pdf: "https://arxiv.org/pdf/2608.10445"
+
+  - title: "The Exact Minimum Total Degree Threshold for the Square of a Hamilton Cycle in Digraphs"
+    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "arXiv:2607.13831"
+    page: "https://arxiv.org/abs/2607.13831"
+    pdf: "https://arxiv.org/pdf/2607.13831"
+
+  - title: "Oriented Discrepancy of the Square of Hamilton Cycles"
+    authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, <a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "arXiv:2605.20746"
+    page: "https://arxiv.org/abs/2605.20746"
+    pdf: "https://arxiv.org/pdf/2605.20746"
+
   - title: "An Ore-type Theorem for Oriented Discrepancy of Hamilton Cycles"
     authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, <a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference_short: arXiv
     conference: "arXiv:2603.18915v2"
+    page: "https://arxiv.org/abs/2603.18915"
     pdf: "https://arxiv.org/pdf/2603.18915.pdf"
 
   - title: "Hamiltonian Squares in Digraphs under Semi-Degree Conditions"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference: "Manuscript"
-    pdf: "./assets/files/Hamiltonian Squares in Digraphs under Semi-Degree Conditions.pdf"
-
-  - title: "Oriented Discrepancy of The Square of Hamilton Cycles"
-    authors: 'Yufei Chang, <a href="https://sites.google.com/view/yangyang-cheng/home">Yangyang Cheng</a>, <a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference_short: arXiv
-    conference: "arXiv:2605.20746"
-    pdf: "https://arxiv.org/pdf/2605.20746"
-
-  - title: "The Exact Minimum Total Degree Threshold For The Square of A Hamilton Cycle in Digraphs"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference_short: arXiv
-    conference: "arXiv:2607.13831"
-    pdf: "https://arxiv.org/pdf/2607.13831"
-
-  - title: "An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs"
-    authors: 'Yufei Chang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference_short: arXiv
-    conference: "arXiv:2608.10445"
-    pdf: "https://arxiv.org/pdf/2608.10445"
-
-  - title: "Nearly Balanced Spanning Subdivisions in Dense Digraphs"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference_short: arXiv
-    conference: "arXiv:2608.14432"
-    pdf: "https://arxiv.org/pdf/2608.14432"
-
-  - title: "Spanning H-subdivisions with Prescribed Path Lengths"
-    authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference_short: arXiv
-    conference: "arXiv:2608.15786"
-    pdf: "https://arxiv.org/pdf/2608.15786"
-
-    
-
-
-    
-
-    
+    page: "./assets/files/hamiltonian-squares-in-digraphs.pdf"
+    pdf: "./assets/files/hamiltonian-squares-in-digraphs.pdf"

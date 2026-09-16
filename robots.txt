@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shuowei30.github.io/ShuoWei_SDU.github.io/sitemap.xml
