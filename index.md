@@ -11,7 +11,7 @@ I received my Bachelor's degree from North China University of Water Resources a
 ## Research Interests
 
 - **Extremal Graph Theory:** Subgraph existence; Hamiltonicity
-- **Digraph Theory:** Oriented graphs; structural and algorithmic problems
+- **Digraph Theory:** Structural and algorithmic problems
 
 ## News
 - **[Aug. 2026]** I turned 24!

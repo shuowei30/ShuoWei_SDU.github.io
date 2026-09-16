@@ -1,6 +1,6 @@
 <h2 id="publications">Research Papers</h2>
 
-<p class="section-intro">Preprints and manuscripts, listed in reverse chronological order.</p>
+<p class="section-intro">Preprints and manuscripts.</p>
 
 <div class="publications">
 <ol class="bibliography" style="margin: 0; padding-left: 18px;">
