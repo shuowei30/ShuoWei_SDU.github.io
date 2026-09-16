@@ -224,6 +224,9 @@ papertitle {
 .image.avatar img {
   border-radius: 24px;
   width: 78%;
+  height: auto;
+  aspect-ratio: 600 / 789;
+  object-fit: cover;
   padding: 8px;
   border: 1px solid #e5e5e5;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
