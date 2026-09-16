@@ -14,9 +14,10 @@ I received my Bachelor's degree from North China University of Water Resources a
 - **Digraph Theory:** Oriented graphs; structural and algorithmic problems
 
 ## News
-- **[Aug. 2026]** New preprint: *Spanning H-subdivisions with Prescribed Path Lengths*.
-- **[Aug. 2026]** New preprint: *Nearly Balanced Spanning Subdivisions in Dense Digraphs*.
-- **[Aug. 2026]** New preprint: *An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs*.
-- **[Jul. 2026]** New preprint: *The Exact Minimum Total Degree Threshold for the Square of a Hamilton Cycle in Digraphs*.
+- **[Aug. 2026]** I turned 24!
+- **[Aug. 2025]** I turned 23!
+- **[Aug. 2024]** I turned 22!
+- **[Aug. 2023]** I turned 21!
+- **[Aug. 2022]** I turned 20!
 
 {% include_relative _includes/publications.md %}
