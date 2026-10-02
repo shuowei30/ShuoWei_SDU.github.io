@@ -1,5 +1,11 @@
 main:
   - title: "Spanning H-subdivisions with Prescribed Path Lengths"
+    authors: '<a href="https://imada.sdu.dk/u/jbj/">Jørgen Bang-Jensen</a>, <strong>Shuo Wei</strong>'
+    conference: "arXiv:2609.36551"
+    page: "https://arxiv.org/abs/2609.36551"
+    pdf: "https://arxiv.org/pdf/2609.36551"
+
+  - title: "Spanning H-subdivisions with Prescribed Path Lengths"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference: "arXiv:2608.15786"
     page: "https://arxiv.org/abs/2608.15786"
