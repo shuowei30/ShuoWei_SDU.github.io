@@ -8,6 +8,8 @@ I am a Ph.D. student at the School of Mathematics, Shandong University, under th
 
 I received my Bachelor's degree from North China University of Water Resources and Electric Power in 2024.
 
+My Erdős number is 3.
+
 ## Research Interests
 
 - **Extremal Graph Theory:** Subgraph existence; Hamiltonicity
