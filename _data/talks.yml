@@ -1,4 +1,10 @@
 main:
+  - title: "The Second Sino-French International Conference on Graph Theory, Combinatorics and Algorithms"
+    venue: "Shandong University"
+    location: "Jinan, China"
+    date: "18–23 October 2026"
+    role: "Participant"
+
   - title: "Graph theory: structure, surfaces, spectra"
     page: "https://scmscomb.github.io/conference"
     venue: "Shanghai Center for Mathematical Sciences, Fudan University"
@@ -13,3 +19,10 @@ main:
     date: "22 July 2026"
     role: "Talk"
     slides: "/assets/files/slides/2026-07-22-hamiltonian-squares.pdf"
+
+  - title: "The First Sino-French International Conference on Graph Theory, Combinatorics and Algorithms"
+    page: "https://www.math.sdu.edu.cn/info/1096/21064.htm"
+    venue: "Shandong University"
+    location: "Jinan, China"
+    date: "27–31 October 2025"
+    role: "Participant"
