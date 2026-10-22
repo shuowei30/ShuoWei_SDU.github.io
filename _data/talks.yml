@@ -4,7 +4,7 @@ main:
     venue: "Shandong University"
     location: "Jinan, China"
     date: "18–23 October 2026"
-    role: "Problem Session"
+    role: "Open Problem Presentation"
     slides: "/assets/files/slides/2026-sino-french-open-problems.pdf"
 
   - title: "Graph theory: structure, surfaces, spectra"
