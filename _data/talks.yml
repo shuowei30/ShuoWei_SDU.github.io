@@ -1,9 +1,11 @@
 main:
-  - title: "The Second Sino-French International Conference on Graph Theory, Combinatorics and Algorithms"
+  - title: "Open Problems on Strong Orientations of Digraphs"
+    event: "The Second Sino-French International Conference on Graph Theory, Combinatorics and Algorithms"
     venue: "Shandong University"
     location: "Jinan, China"
     date: "18–23 October 2026"
-    role: "Participant"
+    role: "Problem Session"
+    slides: "/assets/files/slides/2026-sino-french-open-problems.pdf"
 
   - title: "Graph theory: structure, surfaces, spectra"
     page: "https://scmscomb.github.io/conference"
