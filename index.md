@@ -23,3 +23,5 @@ My Erdős number is 3.
 - **[Aug. 2022]** I turned 20!
 
 {% include_relative _includes/publications.md %}
+
+{% include_relative _includes/talks.md %}

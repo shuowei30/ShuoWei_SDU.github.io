@@ -1,0 +1,7 @@
+main:
+  - title: "Hamiltonian Squares in Directed Graphs"
+    subtitle: "Semi-degree conditions and oriented discrepancy"
+    event: "12th National Conference on Combinatorics and Graph Theory"
+    location: "Zibo, China"
+    date: "22 July 2026"
+    slides: "/assets/files/slides/2026-07-22-hamiltonian-squares.pdf"
