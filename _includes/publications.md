@@ -23,7 +23,7 @@
       {% endif %}
       <div class="links" style="margin: 0;">
         {% if link.pdf %}
-        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px; padding: 1px 6px;">PDF</a>
+        <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px; padding: 1px 6px;">{{ link.pdf_label | default: "PDF" }}</a>
         {% endif %}
         {% if link.code %}
         <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px; padding: 1px 6px;">Code</a>
