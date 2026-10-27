@@ -18,7 +18,7 @@ main:
     pdf: "https://arxiv.org/pdf/2608.14432"
 
   - title: "The Hajnal-Szemerédi theorem in digraphs revisited"
-    authors: 'Yufei Chang, Louis DeBiasio, H. A. Kierstead, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    authors: 'Yufei Chang, <a href="https://louisdebiasio.github.io/">Louis DeBiasio</a>, <a href="https://search.asu.edu/profile/56072">H. A. Kierstead</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference: "arXiv:2608.12207"
     page: "https://arxiv.org/abs/2608.12207"
     pdf: "https://arxiv.org/pdf/2608.12207"
