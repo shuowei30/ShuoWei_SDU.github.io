@@ -17,11 +17,11 @@ main:
     page: "https://arxiv.org/abs/2608.14432"
     pdf: "https://arxiv.org/pdf/2608.14432"
 
-  - title: "An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs"
-    authors: 'Yufei Chang, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
-    conference: "arXiv:2608.10445"
-    page: "https://arxiv.org/abs/2608.10445"
-    pdf: "https://arxiv.org/pdf/2608.10445"
+  - title: "The Hajnal-Szemerédi theorem in digraphs revisited"
+    authors: 'Yufei Chang, Louis DeBiasio, H. A. Kierstead, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
+    conference: "arXiv:2608.12207"
+    page: "https://arxiv.org/abs/2608.12207"
+    pdf: "https://arxiv.org/pdf/2608.12207"
 
   - title: "The Exact Minimum Total Degree Threshold for the Square of a Hamilton Cycle in Digraphs"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
