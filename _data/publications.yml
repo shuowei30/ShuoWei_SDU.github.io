@@ -44,6 +44,6 @@ main:
   - title: "Hamiltonian Squares in Digraphs under Semi-Degree Conditions"
     authors: '<a href="https://zhilanwang.github.io/">Zhilan Wang</a>, <strong>Shuo Wei</strong>, <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm">Jin Yan</a>'
     conference: "Discrete Applied Mathematics 397 (2027), 324–332"
-    page: "https://authors.elsevier.com/c/1n~pN,3nuI2DfH"
-    pdf: "https://authors.elsevier.com/c/1n~pN,3nuI2DfH"
-    pdf_label: "Official version"
+    page: "https://doi.org/10.1016/j.dam.2026.10.037"
+    pdf: "https://doi.org/10.1016/j.dam.2026.10.037"
+    pdf_label: "pdf"
